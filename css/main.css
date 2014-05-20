@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'aw_conqueror';
+    src: url('fonts/awconquerorinline-regular-webfont.eot');
+    src: url('fonts/awconquerorinline-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/awconquerorinline-regular-webfont.woff') format('woff'),
+         url('fonts/awconquerorinline-regular-webfont.ttf') format('truetype'),
+         url('fonts/awconquerorinline-regular-webfont.svg#aw_conqueror_inlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "Gruppo", sans-serif;
+    line-height: 1.5em;
+    font-size: 24px;
+}
+
+header {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.item {
+    position: absolute;
+    background-color: white;
+    margin-left: 350px;
+    width: 1200px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+nav {
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    width: 180px;
+    float: left;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.left {
+    float: left;
+    
+}
+
+.right {
+    float: left;
+    width: 550px;
+}
+
+.text {
+    padding-left: 30px;
+}
+
+.name {
+    font-family: "aw_conqueror";
+    font-weight: normal;
+}
+
+
+
+
+
+
