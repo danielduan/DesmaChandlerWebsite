@@ -14,7 +14,7 @@ body
     width: 975px;
     margin-left: -487px;
     margin-top: -100px;
-    top: 75%;
+    top: 65%;
     left: 50%;
 }
 
@@ -70,13 +70,21 @@ li a:visited
 }
 
 .line {
-    border-bottom: 1px solid white;    
-    margin-right: 39px; 
-    width: 0px;
-    -webkit-transition: 0.5s ease;
-            transition: 0.5s ease;
+    border-bottom: 1px solid white; 
+    width:0px;
+    padding-top:10px;
+    transition: 0.8s ease;
 }
 
+#line1 {
+    margin-right: 0px;
+}
+
+#line2 {
+
+    margin-left: 0px;
+}
+/*
 .line .active {
     -webkit-transition: 0.5s ease;
             transition: 0.5s ease;
@@ -84,3 +92,4 @@ li a:visited
     width: 30px;
     margin-right: 9px;
 }
+*/
