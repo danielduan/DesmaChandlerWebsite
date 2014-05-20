@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'aw_conqueror';
-    src: url('fonts/awconquerorinline-regular-webfont.eot');
-    src: url('fonts/awconquerorinline-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/awconquerorinline-regular-webfont.woff') format('woff'),
-         url('fonts/awconquerorinline-regular-webfont.ttf') format('truetype'),
-         url('fonts/awconquerorinline-regular-webfont.svg#aw_conqueror_inlineregular') format('svg');
+    src: url('../fonts/awconquerorinline-regular-webfont.eot');
+    src: url('../fonts/awconquerorinline-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/awconquerorinline-regular-webfont.woff') format('woff'),
+         url('../fonts/awconquerorinline-regular-webfont.ttf') format('truetype'),
+         url('../fonts/awconquerorinline-regular-webfont.svg#aw_conqueror_inlineregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

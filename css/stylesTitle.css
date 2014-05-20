@@ -1,26 +1,29 @@
 body
 {
-    background-image:url("homepage_background.jpg");
-    background-repeat:repeat-y;
+    background-image:url("../img/homepage_background.jpg");
     background-size: cover;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .center
-{
-    
+{   
+    position: fixed;
+    height: 200px;
+    width: 975px;
+    margin-left: -487px;
+    margin-top: -100px;
+    top: 75%;
+    left: 50%;
 }
 
 .title
 {
     position: relative;
     list-style-type:none;
-    top: 500px;
-    margin:0;
-    padding:0;
+    margin:0 auto;
     width: 690px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .slogan
@@ -29,33 +32,25 @@ body
     font-size: 32px;
     color:white;
     font-weight:500;
-    position: relative;
     list-style-type:none;
     top: 500px;
-    margin:0;
-    padding:0;
+    margin:0 auto;
+    padding-bottom:40px;
     width: 380px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 
 .directory
 {
-    position: relative;
     list-style-type:none;
-    top: 550px;
-    margin:0;
-    padding:0;
-    width: 935px;
-    margin-left:auto;
-    margin-right:auto;
+    margin: 0 auto;
+    width:975px;
 }
 
 
 li
 {
-    display: inline;
+    display: inline-block;
     font-weight: bold;
     font-family: 'Gruppo', cursive;
 }
@@ -74,7 +69,18 @@ li a:visited
     text-decoration:none;
 }
 
-li a:hover
-{
-    
+.line {
+    border-bottom: 1px solid white;    
+    margin-right: 39px; 
+    width: 0px;
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+}
+
+.line .active {
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+    border-bottom: 1px solid blue;
+    width: 30px;
+    margin-right: 9px;
 }
