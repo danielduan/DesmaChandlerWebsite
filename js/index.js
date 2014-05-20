@@ -5,11 +5,10 @@ var queryWidth = function (obj) {
 $('ul li').hover(onMouse, offMouse);
 
 function onMouse() {
-  var width = $(this).offset().left - $(this).width();
-  console.log("line:" + $(this).offset().left);
-  console.log("width:" + $(this).width());
+  var width = $(this).position().left;
+  console.log("line:" + $(this).position().left);
   $("#line1").width(width);
-  $("#line2").width(975-width);
+  $("#line2").width(width + $(this).width());
 }
 
 function offMouse() {

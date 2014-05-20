@@ -70,19 +70,17 @@ li a:visited
 }
 
 .line {
-    border-bottom: 1px solid white; 
+    border-bottom: 1px solid white;
     width:0px;
-    padding-top:10px;
     transition: 0.8s ease;
 }
 
 #line1 {
-    margin-right: 0px;
+    padding-top: 10px;
 }
 
 #line2 {
-
-    margin-left: 0px;
+    padding-top: 5px;
 }
 /*
 .line .active {
