@@ -11,8 +11,8 @@ body
 {   
     position: fixed;
     height: 200px;
-    width: 975px;
-    margin-left: -487px;
+    width: 939px;
+    margin-left: -475px;
     margin-top: -100px;
     top: 65%;
     left: 50%;
@@ -44,9 +44,13 @@ body
 {
     list-style-type:none;
     margin: 0 auto;
-    width:975px;
+    width:939px;
 }
 
+ul
+{
+    padding:0px;
+}
 
 li
 {
@@ -77,10 +81,16 @@ li a:visited
 
 #line1 {
     padding-top: 10px;
+    float:left;
 }
 
 #line2 {
     padding-top: 5px;
+    float:right;
+}
+
+.clear {
+    clear:both;
 }
 /*
 .line .active {
