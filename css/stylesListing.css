@@ -129,3 +129,19 @@ li a:visited
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
 }
+
+.peoplewrap
+{
+    padding-right:25px;
+}
+
+.people
+{
+    overflow-y: hidden;
+}
+
+.grid figcaption {
+    font-family: helvetica;
+    background: black;
+    color: white;
+}
