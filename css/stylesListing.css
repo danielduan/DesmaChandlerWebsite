@@ -1,33 +1,38 @@
-.title
+*
 {
-    position: absolute;
-    list-style-type:none;
-    margin-left: 100px;
-    top: 100px;
-    padding:0;
-    width: 690px;
+    margin:0px;
+    padding:0px;
 }
 
 body
 {
     font-size: 24px;
-    line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
 }
+
+.title
+{
+    padding:25px;
+}
+
+
 .directory
 {
-    position: absolute;
-    list-style-type:none;
-    margin-left: 100px;
-    top: 215px;
-    padding:0;
+    float:left;
+    padding:25px;
     width: 170px;
 }
 
+ul {
+    list-style-type: none;
+    font-family: 'Gruppo', cursive;
+}
 
 li
 {
     font-weight: bold;
-    font-family: 'Gruppo', cursive;
 }
 
 li a
@@ -43,69 +48,79 @@ li a:visited
     text-decoration:none;
 }
 
-li a:hover
-{
-    
-}
-
 .gallery
 {
-    position: absolute;
-    font-size:0px;
-    margin-left: 350px;
-    top: 240px;
-    padding:0;
-    width: 1160px;
+    overflow-x: scroll; 
+    overflow-y: hidden;
 }
 
 .pictures
 {
-    position: relative;
-    opacity: 1.0;
     z-index: 1;
 }
 
-.pictures:hover
+.thumb:hover
 {
     opacity:0.4;
     filter:alpha(opacity=40);
     -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.wrapper
+{
+    width:2300px;
+    font-size: 0;
 }
 
 .thumb
 {
-	  position: relative;
-	  float: left;
-	  clear: none;
-	  overflow: hidden;
-      z-index: 3;
+    display: inline-block;
+    position:relative;
+    width:383px;
+    opacity: 1.0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
-.text
-{
+.overlay {
     position: absolute;
-    opacity: 0;
-    font-weight:bolder;
-    color: black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+}
+
+.overlay p {
+    margin: 0;
+    padding: 0 0 12px;
+    color: white;
     font-size: 35px;
     font-family: 'Petit Formal Script', cursive;
-    font-size:30px;
-    width: 100%;
-    top: 660px;
-    left: 0;
-    z-index: 2;	  
+    z-index: 2;
     text-align:center;
+    top:250px;
+    width:383px;
+    opacity:0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
-.thumb:hover .text 
-{
+
+.thumb:hover .overlay p
+{   
     opacity:0.6;
     filter:alpha(opacity=40);
     -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
 }

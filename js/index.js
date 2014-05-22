@@ -1,9 +1,3 @@
-var queryWidth = function (obj) {
-  console.log(this.offset().left);
-}
-
-$('ul li').hover(onMouse, offMouse);
-
 function onMouse() {
   var left = $(this).position().left;
   var width = $(this).width();
@@ -15,3 +9,6 @@ function offMouse() {
   $("#line1").width(0);
   $("#line2").width(0);
 }
+(function() {
+  $('ul li').hover(onMouse, offMouse);
+})();
