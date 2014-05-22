@@ -48,6 +48,11 @@ li a:visited
     text-decoration:none;
 }
 
+.gallerywrap
+{
+    padding-right:25px;
+}
+
 .gallery
 {
     overflow-x: scroll; 
